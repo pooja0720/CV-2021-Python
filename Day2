@@ -1,0 +1,54 @@
+# PRINT VALUE
+
+print("30 days 30 hour challenge")
+
+#ASSIGNING STRING TO VARIABLE
+
+hours = 'thirty'
+print(hours)
+
+#STRING INDEXING
+
+Days = 'Thirty Days'
+print(Days[0])
+
+challenge='I will win'
+print(challenge[7:10])
+
+#LENGTH OF CHARA
+print(len(challenge))
+
+#LOWER CHARA
+print(challenge.lower())
+
+#STRING CONCATENATION
+a = "30 Days"
+b = "30 Hours"
+c = a + b
+print(c)
+
+#ADDING SPACEING
+d = a + " " + b
+print(c)
+
+#CASEFOLD:
+
+txt = 'Thirty days and Thirty hours'
+
+x = txt.casefold()
+
+print(x)
+
+sampleText = "DON'T TROUBLE TROUBLE UNTIL TROUBLE TROUBLES YOU."
+
+y = sampleText.capitalize()
+print(y)
+
+y = sampleText.find('O')
+print(y)
+
+y = sampleText.isalpha()
+print(y)
+
+y = sampleText.isalnum()
+print(y)
